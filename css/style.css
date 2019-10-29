@@ -2,7 +2,7 @@ body {
   font-family: sans-serif;
 }
 
-/* Make content area fill the entire browser window */
+/* Make content area fill the entire browser window
 html,
 .fullscreen {
   display: flex;
@@ -10,7 +10,7 @@ html,
   margin: 0;
   padding: 0;
   width: 100%;
-}
+}*/
 
 /* Center the content in the browser window */
 .container {
@@ -34,7 +34,7 @@ html,
 	background-color:#79bbff;
 	border-radius:10px;
 	border:1px solid #84bbf3;
-	display:inline-block;
+	display: flex;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;

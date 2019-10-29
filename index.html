@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <title>Hello World</title>
   <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="css/style.css">
+  <!--link rel="stylesheet" href="css/style.css"-->
+  <link rel="stylesheet" href="css/fireworks.css">  
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" href="images/hello-icon-152.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,14 +17,19 @@
   <meta name="msapplication-TileColor" content="#FFFFFF">
   <script src="index.js" defer></script>
 </head>
-<body class="fullscreen">
+<body>
   <div class="container">
-    <h1 class="title">Hello World!</h1>
+	  <button class="add-button">Add to home screen 2</button>
+    <h1 class="title">Hello World!
+		  <button class="add-button3">Add to home screen 3</button>
+	</h1>
+	  <button class="add-button4">Add to home screen 4</button>
   </div>
-  <button class="add-button">Add to home screen</button>
-  <script src="main.js"></script>
-  <!--script src="js/main.js"></script-->
+	  <button class="add-button5">Add to home screen 5</button>
+
 </body>
+  <!--script src="main.js"></script>
+  <script src="js/main.js"></script-->
     <script>
       if ('serviceWorker' in navigator) {
         console.log("Will the service worker register?");
